@@ -46,6 +46,7 @@ main {
   padding        : 0;
 
   display: flex;
+  flex-wrap: wrap;
 }
 
 .links li {
