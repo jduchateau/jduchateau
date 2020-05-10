@@ -70,7 +70,7 @@ a:visited {
 
 
 .gif {
-  background: url("gifs/sun.gif"), white;
+  background: url("img/sun.gif"), white;
 
   background-size    : contain;
   background-position: center;
