@@ -12,7 +12,7 @@ html {
 body {
   background-color: var(--main-bg-color);
   color           : var(--main-color);
-  font-family     : 'Jetbrains Mono', 'Fira Mono', 'Source Code Pro', 'Victor Mono', 'Droid Sans Mono', sans-serif;
+  font-family     : 'Jetbrains Mono', 'Fira Mono', 'Source Code Pro', 'Victor Mono', 'Droid Sans Mono', 'Cascadia Mono', sans-serif;
 
   margin        : 0;
   padding       : 0;
