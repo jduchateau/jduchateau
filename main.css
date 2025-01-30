@@ -1,7 +1,7 @@
 :root {
-  --main-color     : hsl(41, 100%, 17%);
-  --second-color   : hsl(17, 100%, 31%);
-  --main-bg-color  : hsl(41, 100%, 90%);
+  --main-color: hsl(41, 100%, 17%);
+  --second-color: hsl(17, 100%, 31%);
+  --main-bg-color: hsl(41, 100%, 90%);
   --second-bg-color: hsl(17, 94%, 65%);
 }
 
@@ -11,19 +11,20 @@ html {
 
 body {
   background-color: var(--main-bg-color);
-  color           : var(--main-color);
-  font-family     : 'Jetbrains Mono', 'Fira Mono', 'Source Code Pro', 'Victor Mono', 'Droid Sans Mono', 'Cascadia Mono', sans-serif;
+  color: var(--main-color);
+  font-family: 'Jetbrains Mono', 'Fira Mono', 'Source Code Pro', 'Victor Mono', 'Droid Sans Mono', 'Cascadia Mono', sans-serif;
 
-  margin        : 0;
-  padding       : 0;
-  display       : flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
   flex-direction: column;
-  min-height    : 100vh;
+  min-height: 100vh;
 }
 
 .container {
-  width  : 70%;
-  margin : 0 auto;
+  width: 70%;
+  max-width: 15cm;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -31,6 +32,10 @@ main {
   flex: 1 0 auto;
 
   padding: 2rem 0 !important;
+}
+
+code {
+  font-family: 'Jetbrains Mono', 'Fira Mono', 'Source Code Pro', 'Victor Mono', 'Droid Sans Mono', 'Cascadia Mono', monospace;
 }
 
 
@@ -42,8 +47,8 @@ main {
 
 .links {
   list-style-type: none;
-  margin         : 0;
-  padding        : 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +59,7 @@ main {
 }
 
 a {
-  color          : var(--second-color);
+  color: var(--second-color);
   text-decoration: underline;
 }
 
@@ -64,7 +69,7 @@ a:active {
 }
 
 a:visited {
-  color          : var(--second-color);
+  color: var(--second-color);
   text-decoration: dashed;
 }
 
@@ -72,10 +77,10 @@ a:visited {
 .gif {
   background: url("img/sun.webp"), white;
 
-  background-size    : contain;
+  background-size: contain;
   background-position: center;
-  background-repeat  : no-repeat;
-  object-fit         : contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
 
   min-height: 20rem;
 
@@ -89,7 +94,7 @@ a:visited {
   line-height: inherit;
   text-indent: inherit;
 
-  display        : flex;
-  align-items    : center;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
