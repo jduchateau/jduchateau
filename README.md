@@ -5,6 +5,8 @@ Jakub Duchateau, PhD student at the University of Liège.
 { "PhD Student", "Data-Integration", "Knowledge Graph", "DSL", "UX", "ULiège", "Aalto" }
 ```
 
-Some fish completions
+One of my last public project is [🍇 GRAPE](https://gitlab.uliege.be/JakubDuchateau/grape): Guiding RML Authoring with Projectional Editor.
+
+I use fish, and have some additional completions scripts:
 - [fish-virtualbox-completions](https://github.com/jduchateau/fish-virtualbox-completions)
 - [fish-snapper-completions](https://github.com/jduchateau/fish-snapper-completions)
